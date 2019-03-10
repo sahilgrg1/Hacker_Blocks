@@ -16,6 +16,7 @@ public class Increasion_Seq {
     public static boolean inctodec(int[] nums)
     {
         boolean s = false;
+        System.out.println("nice");
         for (int i = 1; i < nums.length ; i++) {
             if(nums[i] > nums[i-1] && s == false)
             {
