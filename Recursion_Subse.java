@@ -24,7 +24,7 @@ public class Recursion_Subse {
     {
         if(unpro.isEmpty())
         {
-            if(!pro.isEmpty())/////////////////////
+            if(!pro.isEmpty())
             {
                 list.add(pro);
             }
