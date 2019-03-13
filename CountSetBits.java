@@ -5,8 +5,18 @@ import java.util.Scanner;
 public class CountSetBits {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        int n = s.nextInt();
-        System.out.println(count(n));
+        int n1 = s.nextInt();
+        int n2 = s.nextInt();
+        System.out.println(interval(n1,n2));
+    }
+    public static int interval(int n1, int n2)
+    {
+        int sum = 0 ;
+        for (int i = n1; i <= n2 ; i++) {
+            sum = sum +count(i);
+
+        }
+        return sum ;
     }
 
     public static int count(int n) {
